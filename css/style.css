@@ -1,3 +1,42 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* home firstt css */
+
+h1 {
+    font-size: 50px;
+}
+
+.orange{
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+  
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.top-banner{
+    display: flex;
+   
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    font-weight: 700;
+}
+
+/* end */
