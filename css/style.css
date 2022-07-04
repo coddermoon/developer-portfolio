@@ -62,7 +62,7 @@ p {
 
 /* experience section */
 
-.experience{
+#skill-container{
    background-image: url(../images/exp-bg.png);
    background-repeat: no-repeat;
    position: left; 
@@ -71,4 +71,18 @@ p {
 
 footer p{
 text-align: center;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+#baby-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+
+.experience .half-width{
+    box-shadow: 5px 7px 40px grey;
+   
 }
