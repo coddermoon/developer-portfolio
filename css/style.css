@@ -27,8 +27,9 @@ h1 {
 img{
     max-width: 100%;
 }
-section{
+.container{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -57,4 +58,17 @@ p {
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* experience section */
+
+.experience{
+   background-image: url(../images/exp-bg.png);
+   background-repeat: no-repeat;
+   position: left; 
+}
+
+
+footer p{
+text-align: center;
 }
